@@ -1,0 +1,31 @@
+#cabeçalho{background: color #262f40;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:10px 20px;}
+
+#cabeçalho nav ul{
+    display: flex;
+}
+#cabeçalho nav ul li{
+list-style: none;
+padding:0 4rem;
+}
+#cabeçalho nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+#cabeçalho a hover{
+    color:red;
+    background-color: rgb(57, 62, 75, 0.8);
+    font-weight: bold;
+}
+ul{list-style: none;}
+#logo{height: 200px;}
+#banner img{
+    width:100%;
+    float: right;
+}
